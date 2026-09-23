@@ -1,0 +1,66 @@
+Architecture:
+
+                Automotive Defect Dataset
+                          │
+                          ▼
+
+                   Data Cleaning
+          (Remove Nulls, Validate Data)
+                          │
+                          ▼
+
+                Feature Engineering
+      ┌─────────────────────────────────┐
+      │ Issue_Text                      │
+      │ Module_Subsystem                │
+      │ Severity_Priority               │
+      │ Version_Module                  │
+      └─────────────────────────────────┘
+                          │
+                          ▼
+
+                  Label Encoding
+         (Convert Team Names to Numbers)
+                          │
+                          ▼
+
+                   Train/Test Split
+                        80/20
+                          │
+                          ▼
+
+              CatBoost Classification
+      ┌─────────────────────────────────┐
+      │ Input Features:                 │
+      │ • Issue_Text                    │
+      │ • Module                        │
+      │ • Severity                      │
+      │ • Priority                      │
+      │ • Vehicle Model                 │
+      └─────────────────────────────────┘
+                          │
+                          ▼
+
+                  Team Prediction
+      ┌─────────────────────────────────┐
+      │ CAN Team                        │
+      │ Diagnostic Team                 │
+      │ HMI Team                        │
+      │ Embedded Team                   │
+      └─────────────────────────────────┘
+                          │
+                          ▼
+
+                Confidence Score
+                          │
+                          ▼
+
+                 Streamlit Dashboard
+      ┌─────────────────────────────────┐
+      │ Dashboard                       │
+      │ Batch Prediction                │
+      │ Model Evaluation                │
+      │ Feature Importance              │
+      │ Log Parser                      │
+      │ Prediction History              │
+      └─────────────────────────────────┘
