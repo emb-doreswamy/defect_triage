@@ -1,0 +1,21 @@
+ streamlit
+ 
+ pandas
+ 
+ numpy
+ 
+ scikit-learn
+ 
+ catboost
+ 
+ sentence-transformers
+ 
+ plotly
+ 
+ openpyxl
+ 
+ joblib
+
+torch
+
+transformers
