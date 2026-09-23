@@ -45,8 +45,10 @@ pip install streamlit pandas numpy scikit-learn catboost sentence-transformers p
 python Training.py
  
 **This generates:**
-catboost_defect_triage_model.pkl
+catboost_defect_triage_model.pkl 
+
 label_encoder.pkl
+
 feature_importance.xlsx
 prediction_comparison.xlsx
 vehicle.log
