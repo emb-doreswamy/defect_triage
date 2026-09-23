@@ -1,23 +1,28 @@
 # defect_triage
 
 Installation
+
 Clone the Repository
  
 git clone https://github.com/emb-doreswamy/defect_triage.git
  
 cd automotive-defect-triage-ai
+
 Create Virtual Environment (Optional)
  
  
 python -m venv venv
- 
+
 **Activate Virtual Environment**
+
 venv\Scripts\activate
  
 **Linux / macOS**
+
 source venv/bin/activate
  
 **Install Required Libraries**
+
 pip install streamlit
 
 pip install pandas
