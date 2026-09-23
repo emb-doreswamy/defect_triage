@@ -47,7 +47,8 @@ pip install streamlit pandas numpy scikit-learn catboost sentence-transformers p
 **Running the Project**
 
 **Step 1: Train the Model**
-python Training.py
+
+python Defect_triage.py
  
 **This generates:**
 
@@ -63,7 +64,7 @@ vehicle.log
  
 **Step 2: Launch Dashboard**
 
-streamlit run Dashboard.py
+streamlit run Dashboard_2.py
  
 **Step 3: Open Application**
 
@@ -103,9 +104,9 @@ OpenPyXL
 
  automotive-defect-triage-ai/
 
-├── Dashboard.py
+├── Dashboard_2.py
 
-├── Training.py
+├── Defect_triage.py
 
 ├── automotive_defect_triage_balanced.xlsx
 
