@@ -45,42 +45,57 @@ pip install streamlit pandas numpy scikit-learn catboost sentence-transformers p
 python Training.py
  
 **This generates:**
+
 catboost_defect_triage_model.pkl 
 
 label_encoder.pkl
 
 feature_importance.xlsx
+
 prediction_comparison.xlsx
+
 vehicle.log
  
 **Step 2: Launch Dashboard**
+
 streamlit run Dashboard.py
  
 **Step 3: Open Application**
+
 http://localhost:8501
  
 **Tool Stack**
 
 **Machine Learning & NLP**
+
 CatBoost Classifier
+
 Sentence Transformers (MiniLM)
+
 Scikit-Learn
 
 **Data Processing**
+
 Pandas
+
 NumPy
 
 **Dashboard & Visualization**
+
 Streamlit
+
 Plotly
 
 **Model Persistence**
+
 Joblib
 
 **Excel Processing**
+
 OpenPyXL
 
 **Project Structure**
+
  automotive-defect-triage-ai/
 
 ├── Dashboard.py
