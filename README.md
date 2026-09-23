@@ -98,4 +98,39 @@ Joblib
 
 **Excel Processing**
 OpenPyXL
- 
+
+ automotive-defect-triage-ai/
+
+│
+
+├── Dashboard.py
+
+├── Training.py
+
+│
+
+├── automotive_defect_triage_balanced.xlsx
+
+│
+
+├── catboost_defect_triage_model.pkl
+
+├── label_encoder.pkl
+
+├── embedding_config.pkl
+
+│
+
+├── feature_importance.xlsx
+
+├── prediction_comparison.xlsx
+
+├── prediction_history.xlsx
+
+├── vehicle.log
+
+│
+
+├── Embitel_logo.png
+
+└── README.md
