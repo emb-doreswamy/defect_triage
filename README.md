@@ -57,27 +57,6 @@ streamlit run Dashboard.py
 **Step 3: Open Application**
 http://localhost:8501
  
-**Project Structure**
-
-automotive-defect-triage-ai/
-│
-├── Dashboard.py
-├── Training.py
-│
-├── automotive_defect_triage_balanced.xlsx
-│
-├── catboost_defect_triage_model.pkl
-├── label_encoder.pkl
-├── embedding_config.pkl
-│
-├── feature_importance.xlsx
-├── prediction_comparison.xlsx
-├── prediction_history.xlsx
-├── vehicle.log
-│
-├── Embitel_logo.png
-└── README.md
- 
 **Tool Stack**
 
 **Machine Learning & NLP**
@@ -99,15 +78,13 @@ Joblib
 **Excel Processing**
 OpenPyXL
 
+**Project Structure**
  automotive-defect-triage-ai/
 
-│
 
 ├── Dashboard.py
 
 ├── Training.py
-
-│
 
 ├── automotive_defect_triage_balanced.xlsx
 
